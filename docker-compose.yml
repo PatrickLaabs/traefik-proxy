@@ -87,6 +87,13 @@ services:
       - db:/var/lib/mysql
     networks:
       - backend
+
+ # golang webserve
+  webserve:
+    image: paddybn/golang-docker-app
+    restart: always
+    networks:
+      - web
       
 networks:
   web:
