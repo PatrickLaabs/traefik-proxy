@@ -1,2 +1,4 @@
-letsencrypt/
+# macOS Files
 .DS_Store
+
+letsencrypt/
